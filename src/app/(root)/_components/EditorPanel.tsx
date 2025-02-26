@@ -8,7 +8,6 @@ import Image from "next/image";
 import { RotateCcwIcon, ShareIcon, TypeIcon } from "lucide-react";
 import { useClerk } from "@clerk/nextjs";
 import { EditorPanelSkeleton } from "./EditorPanelSkeleton";
-// import { EditorPanelSkeleton } from "./EditorPanelSkeleton";
 // import ShareSnippetDialog from "./ShareSnippetDialog";
 
 function EditorPanel() {
@@ -36,7 +35,7 @@ function EditorPanel() {
   const handleRefresh = () => {
     const defaultCode = LANGUAGE_CONFIG[language].defaultCode;
     if (editor) editor.setValue(defaultCode);
-    localStorage.removeItem(`editor-code-${language}`);
+    // localStorage.removeItem(`editor-code-${language}`);
   };
 
   const handleEditorChange = (value: string | undefined) => {
