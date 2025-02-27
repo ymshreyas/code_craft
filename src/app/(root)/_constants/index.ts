@@ -39,7 +39,7 @@ console.log('Sum of numbers:', sum);`,
   typescript: {
     id: "typescript",
     label: "TypeScript",
-    logoPath: "/ts.png",
+    logoPath: "/typescript.png",
     pistonRuntime: { language: "typescript", version: "5.0.3" },
     monacoLanguage: "typescript",
     defaultCode: `// TypeScript Playground
