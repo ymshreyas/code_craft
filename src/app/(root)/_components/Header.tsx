@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Blocks, Code2, Sparkles } from "lucide-react";
 import ThemeSelector from "./ThemeSelector";
 import LanguageSelector from "./LanguageSelector";
-import { SignedIn, SignUp } from "@clerk/nextjs";
+import { SignedIn } from "@clerk/nextjs";
 import RunButton from "./RunButton";
 import HeaderProfileBtn from "./HeaderProfileBtn";
 

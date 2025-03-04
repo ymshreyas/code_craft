@@ -8,8 +8,9 @@ import NavigationHeader from "@/components/NavigationHeader";
 import { AnimatePresence, motion } from "framer-motion";
 import { BookOpen, Grid, Layers, Search, Tag, X } from "lucide-react";
 import SnippetCard from "./_components/SnippetCard";
+import Image from "next/image";
 
-function page() {
+function SnippetsPage() {
   const snippets = useQuery(api.snippets.getSnippets);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedLanguage, setSelectedLanguage] = useState<string | null>(null);
@@ -112,7 +113,7 @@ function page() {
                 `}
               >
                 <div className="flex items-center gap-2">
-                  <img
+                  <Image
                     src={`/${lang}.png`}
                     alt={lang}
                     className="w-4 h-4 object-contain"
@@ -184,4 +185,4 @@ function page() {
   );
 }
 
-export default page;
+export default SnippetsPage;

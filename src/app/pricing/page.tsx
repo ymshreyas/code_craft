@@ -4,7 +4,7 @@ import React from "react";
 import { api } from "../../../convex/_generated/api";
 import ProPlanView from "./_components/ProPlanView";
 import NavigationHeader from "@/components/NavigationHeader";
-import { ENTERPRISE_FEATURES, FEATURES } from "./_constants";
+import { ENTERPRISE_FEATURES } from "./_constants";
 import { Star } from "lucide-react";
 import { SignedIn, SignedOut } from "@clerk/nextjs"
 import UpgradeButton from "./_components/UpgradeButton";

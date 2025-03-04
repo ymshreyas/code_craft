@@ -12,7 +12,7 @@ import { api } from "../../../../convex/_generated/api";
 
 function RunButton() {
   const { user } = useUser();
-  const { isRunning, runCode, language, executionResult } =
+  const { isRunning, runCode, language } =
     useCodeEditorStore();
   const saveExecution = useMutation(api.codeExecutions.saveExecution);
   const handleRun = async () => {
