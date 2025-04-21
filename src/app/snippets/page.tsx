@@ -116,6 +116,8 @@ function SnippetsPage() {
                   <Image
                     src={`/${lang}.png`}
                     alt={lang}
+                    width={4}
+                    height={4}
                     className="w-4 h-4 object-contain"
                   />
                   <span className="text-sm">{lang}</span>
