@@ -62,7 +62,7 @@ npm run dev
 ```
 
 ### **5️⃣ Open in Browser**
-[Code Craft](https://your-deployment-url.com)
+[Code Craft](https://code-craft-two-nu.vercel.app/)
 
 ## 🚀 Future Enhancements
 - 📞 **Real-Time Pair Programming**
